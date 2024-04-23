@@ -108,7 +108,6 @@ iframe {
 .num {
   color: white;
 }
-
-.email {
-  color: white;
-}/*# sourceMappingURL=main.css.map */
+.star{
+    color: rgb(231, 136, 3);
+}
