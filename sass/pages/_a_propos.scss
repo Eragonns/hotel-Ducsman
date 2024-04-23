@@ -1,0 +1,23 @@
+.apropos{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    color: grey;
+    padding-bottom: 5em;
+}
+.num{
+    color: white;
+}
+.email{
+    color: white;
+}
+.mentions__legales{
+    text-align: center;
+    color: white;
+    background-color: #1B1B1B;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.mentions__legales__copyright{
+    color: grey;
+}
