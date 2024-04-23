@@ -1,3 +1,12 @@
 body {
     background-color: rgb(72, 72, 72);
 }
+h1, h2, h3{
+    color: white;
+}
+p, .p1, .p2, .p3, .p4{
+    color: rgb(161, 161, 161);
+}
+li{
+    color: rgb(161, 161, 161);
+}
