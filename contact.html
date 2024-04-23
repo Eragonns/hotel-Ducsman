@@ -16,8 +16,8 @@
         <div class="contact__presentation">
             <h2 class="titre2">Ducsman</h2>
             <p>Nous sommes à votre disposition pour toute question relative à votre sejour<br> ou pour vous préparer le plus luxueux des Voyages.</p>
-            <p>Informations & Réservation<br>0320010203</p>
-            <p>E-mail<br><a href="#">info@ducsman-group.com</a></p>
+            <p>Informations & Réservation<br><span class="tel">0320010203</span></p>
+            <p>E-mail<br><a href="#" class="mail">info@ducsman-group.com</a></p>
             <p>Adresse<br>23 avenue des Nations Unies<br>75001 Paris</p>
         </div>
         <!--info contact-->
@@ -33,15 +33,15 @@
                     <input type="email" id="email" placeholder="Votre e-mail *">
                 </div>
                 <div class="bloc2">
-                    <label for="tel"></label>
-                    <input type="number" id="tel" placeholder="Votre numéro de téléphone *">
+                    <label for="num"></label>
+                    <input type="tel" id="num" placeholder="Votre numéro de téléphone *">
                     <label for="sujet"></label>
                     <input type="text" id="sujet" placeholder="Sujet *">
                 </div>
                 <label for="textarea"></label>
-                <textarea name="message" id="textarea" cols="30" rows="10" placeholder="Message *"></textarea>
+                <textarea name="message" id="textarea" cols="30" rows="5" placeholder="Message *"></textarea>
                 <label for="envoie"></label>
-                <input type="submit" id="envoie">
+                <input type="submit" id="envoie" value="ENVOYER">
             </form>
         </div>
     </div>
@@ -49,7 +49,18 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.881118150069!2d2.2880828767780175!3d48.860477300559296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe3411d2971%3A0xb51467f04765bff!2sAv.%20des%20Nations%20Unies%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1713860707041!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <footer>
-
+        <div class="apropos">
+            <div class="apropos__texte">
+                <h2 class="titre2">A propos de notre hôtel</h2>
+                <p>Le seul hôtel 5 étoiles de Paris. Lorem ipsum, dolor sit amet<br>consectetur adipisicing <br> Qui omnis sit aperiam laboriosam deleniti porro, cum obcaecati sint labore<br>voluptatibus repellendus saepe suscipit nam reiciendis dolor rem sunt quam neque!<br> Lorem ipsum dolor sit amet consectetur adipisicing elit Ipsam quasi minima.</p>
+            </div>
+            <div class="apropos__contact">
+                <h2 class="titre2">Contact</h2>
+                <p>23 avenue des Nations Unies<br>75001 Paris</p>
+                <p class="num">0320010203</p>
+                <p><a href="#" target="_blank" class="email">info@ducsman.com</a></p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
