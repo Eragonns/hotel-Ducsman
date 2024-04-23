@@ -1,1 +1,77 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+}
+
+.contact {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  color: grey;
+}
+
+.contact__info__form {
+  display: grid;
+}
+
+#nom {
+  background-color: #222222;
+  color: gray;
+  border-color: gray;
+  border-style: none none solid none;
+  border-width: 0em 0em 0.1em 0em;
+}
+
+#email {
+  background-color: #222222;
+  color: gray;
+  border-color: gray;
+  border-style: none none solid none;
+  border-width: 0em 0em 0.1em 0em;
+}
+
+#tel {
+  background-color: #222222;
+  color: gray;
+  border-color: gray;
+  border-style: none none solid none;
+  border-width: 0em 0em 0.1em 0em;
+}
+
+#sujet {
+  background-color: #222222;
+  color: gray;
+  border-color: gray;
+  border-style: none none solid none;
+  border-width: 0em 0em 0.1em 0em;
+}
+
+#textarea {
+  background-color: #222222;
+  color: gray;
+  border-color: gray;
+  border-style: none none solid none;
+  border-width: 0em 0em 0.1em 0em;
+}
+
+#envoie {
+  background-color: #222222;
+  color: gray;
+  border-color: gray;
+  border-style: none none solid none;
+  border-width: 0em 0em 0.1em 0em;
+}
+
+.titre2 {
+  color: white;
+}
+
+.carte {
+  text-align: center;
+  filter: grayscale(100%);
+}
+
+iframe {
+  width: 52em;
+}/*# sourceMappingURL=main.css.map */
