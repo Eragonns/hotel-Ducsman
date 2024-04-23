@@ -20,4 +20,18 @@ li{
 }
 .star{
     color: rgb(231, 136, 3);
+    position: absolute;
+    top: 35%;
+    left: 56%;
+    font-size: xx-large;
+}
+h3{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: xx-large;
+}
+.image1{
+    width:min-content;
+    height: min-content;
 }
