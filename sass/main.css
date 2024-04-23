@@ -22,7 +22,7 @@ li{
     color: rgb(231, 136, 3);
     position: absolute;
     top: 35%;
-    left: 56%;
+    left: 53.5%;
     font-size: xx-large;
 }
 h3{
@@ -35,3 +35,16 @@ h3{
     width:min-content;
     height: min-content;
 }
+.title1{
+    position: absolute;
+    top: 50%;
+    right: 39%;
+    font-size:xx-large;
+    text-align: center;
+}
+.title2{
+    position: absolute;
+    left: 0%;
+    top: 123%;
+}
+
