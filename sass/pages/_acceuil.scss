@@ -1,111 +1,6 @@
-nav {
-    position: fixed;
-}
-
 .bodyacc {
     margin: 0;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.082)), url('/images/slider/2.jpg') no-repeat 0em -10em;
-}
-
-.asideacc {
-    background-color: #1B1B1B;
-    width: 400px;
-    height: 8000px;
-    display: flex;
-    flex-direction: row;
-}
-
-.asideacc h1 {
-    margin-left: 30px;
-    color: #A68B67;
-    font-family: "Sedan", sans-serif;
-    font-weight: 300;
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 5px;
-}
-
-.asideacc ul {
-    list-style-type: none;
-    padding-top: 4em;
-}
-
-.asideacc li {
-    font-family: "Roboto", sans-serif;
-    height: 50px;
-    margin-left: 20px;
-}
-
-.asideacc h2 {
-    font-size: 17px;
-    color: rgb(226, 226, 226);
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    text-align: center;
-    letter-spacing: 3px;
-    padding-left: 1.5em;
-}
-
-.flexduc {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-self: center;
-    padding-top: 6em;
-    padding-left: 2em;
-}
-
-i {
-    color: #A68B67;
-    letter-spacing: 5px;
-}
-
-a:hover {
-    color: #A68B67;
-    cursor: pointer;
-}
-
-a {
-    text-decoration: none;
-    color: grey;
-}
-
-.infoli {
-    color: grey;
-    font-size: 20px;
-}
-
-.numli {
-    color: #A68B67;
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-}
-
-.nuli {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-}
-
-.liionfo {
-    display: flex;
-}
-
-.nuli li {
-    height: 30px;
-}
-
-.liionfo i {
-    width: 40px;
 }
 
 // header
@@ -149,10 +44,13 @@ header button {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     letter-spacing: 2px;
+    transition: all 1s;
 }
 
 header button:hover {
     cursor: pointer;
+    background-color: #1B1B1B;
+    transition: all 1s;
 }
 
 // main
@@ -164,7 +62,7 @@ header button:hover {
 
 .test {
     width: 79%;
-    height: 300em;
+    height: 351.4em;
     position: absolute;
     left: 21%;
     top: 95%;
@@ -263,30 +161,30 @@ header button:hover {
 .gridmainbt {
     position: absolute;
     left: 26%;
-    top: 16.7%;
+    top: 14.2%;
 }
 
 .gridmainbt2 {
     position: absolute;
-    top: 16.7%;
+    top: 14.2%;
     left: 55%;
 }
 
 .gridmainbt3 {
     position: absolute;
-    top: 16.7%;
+    top: 14.2%;
     left: 83.8%;
 }
 
 .gridmainbt4 {
     position: absolute;
-    top: 28.5%;
+    top: 24.4%;
     left: 40.5%;
 }
 
 .gridmainbt5 {
     position: absolute;
-    top: 28.5%;
+    top: 24.4%;
     left: 83%;
 }
 
@@ -312,7 +210,7 @@ header button:hover {
 .maingridul {
     color: rgb(226, 226, 226);
     position: absolute;
-    top: 24%;
+    top: 20.7%;
 }
 
 .liprix {
@@ -330,23 +228,23 @@ header button:hover {
 .backsuite {
     background: linear-gradient(to top, #00000083, #00000000);
     width: 401px;
-    height: 531px;
+    height: 532px;
     position: absolute;
-    top: 15.3%;
+    top: 13.1%;
 }
 
 .maingridul1 {
     color: rgb(226, 226, 226);
     position: absolute;
-    top: 32.8%;
+    top: 28.1%;
 }
 
 .backsuite2 {
     background: linear-gradient(to top, #00000083, #00000000);
     width: 617px;
-    height: 386px;
+    height: 388px;
     position: absolute;
-    top: 27.1%;
+    top: 23.2%;
 }
 
 .tst i {
@@ -361,7 +259,11 @@ header button:hover {
 .tst2 {
     padding-top: 1em;
     background-color: #1f1f1f;
-    height: 300em;
+    height: 125em;
+}
+
+.mainaccgrid3 button:hover {
+    cursor: pointer;
 }
 
 .mainaccgrid3 img {
@@ -404,11 +306,282 @@ header button:hover {
 }
 
 .bak {
-    background-color: #2b2b2b;
+    background-color: #2d2d2d;
 }
 
 .tst2 ul {
     padding-top: 3em;
 }
+
+.grid3bak {
+    background: linear-gradient(to top, #0000004b, #00000000);
+    width: 688px;
+    height: 443px;
+    position: absolute;
+    top: 34.3%;
+}
+
+.grid3bak2 {
+    background: linear-gradient(to top, #0000004b, #00000000);
+    width: 688px;
+    height: 443px;
+    position: absolute;
+    top: 50.3%;
+}
+
+.grid3bak3 {
+    background: linear-gradient(to top, #0000004b, #00000000);
+    width: 688px;
+    height: 443px;
+    position: absolute;
+    top: 42.3%;
+}
+
+.grid3bak4 {
+    background: linear-gradient(to top, #0000004b, #00000000);
+    width: 688px;
+    height: 443px;
+    position: absolute;
+    top: 58.3%;
+}
+
+// section 4
+
+.mainaccgrid4 {
+    padding: 1em;
+    display: grid;
+    grid-template: 25em / 28% 28% 28%;
+    gap: 3em;
+}
+
+.lih5 {
+    color: rgb(226, 226, 226);
+    font-size: 4em;
+    font-family: "Sedan", sans-serif;
+    text-align: center;
+    width: 80%;
+}
+
+.mainaccgrid4 i {
+    color: #A68B67;
+}
+
+.accp5 {
+    color: grey;
+    margin-left: 2em;
+    width: 93%;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    height: 5em;
+}
+
+.mainaccgrid4 li {
+    list-style-type: none;
+}
+
+.infoli2 {
+    color: grey;
+    font-size: 25px;
+}
+
+.numli2 {
+    color: #A68B67;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    font-size: 20px;
+}
+
+.nuli2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 1em;
+}
+
+.liionfo2 {
+    display: flex;
+    padding-left: 3em;
+}
+
+.dej1 {
+    color: rgb(226, 226, 226);
+    font-size: 2em;
+    font-family: "Sedan", sans-serif;
+    padding-top: 2em;
+    height: 2em;
+}
+
+.dej2 {
+    color: #99774c;
+    font-size: 50px;
+    letter-spacing: 2px;
+    height: 2em;
+}
+
+.spandej {
+    color: grey;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.dej3 {
+    color: grey;
+    font-size: 25px;
+    height: 40px;
+}
+
+.bak i {
+    padding-right: 1em;
+    color: #99774c;
+}
+
+.dejuncheck i {
+    color: grey;
+}
+
+// section 5
+
+.sec5 {
+    padding: 6em;
+}
+
+.sec5 h5 {
+    color: rgb(226, 226, 226);
+    font-size: 3em;
+    font-family: "Sedan", sans-serif;
+}
+
+.sec5grid {
+    display: grid;
+    grid-template: 15em 15em / 28% 28% 28%;
+    gap: 3em;
+}
+
+.gridborder {
+    padding: 1em;
+    border: 1px solid rgba(128, 128, 128, 0.123);
+}
+
+.fa-earth-europe {
+    font-size: 3em;
+}
+
+.sec5 i {
+    color: #99774c;
+    height: 1em;
+}
+
+.sec5 li {
+    list-style-type: none;
+}
+
+.lisec51 {
+    color: rgb(226, 226, 226);
+    font-size: 2em;
+    font-family: "Sedan", sans-serif;
+    height: 2em;
+    font-weight: 100;
+}
+
+.lisec52 {
+    color: grey;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+// footer
+
+.accfooter {
+    display: flex;
+    padding: 5em;
+}
+
+.accfooter li {
+    list-style-type: none;
+}
+
+.accfooterap {
+width: 48em;
+height: 20em;
+}
+
+.accp4 {
+    color: rgb(226, 226, 226);
+    font-size: 3em;
+    font-family: "Sedan", sans-serif;
+    height: 2em;
+    padding-left: 38px;
+    font-weight: 100;
+}
+
+.contactacc {
+    padding-left: 3em;
+}
+
+.licont1 {
+    color: rgb(226, 226, 226);
+    font-size: 3em;
+    font-family: "Sedan", sans-serif;
+    height: 2em;
+    font-weight: 100;
+}
+
+.licont2 {
+        color: grey;
+        width: 93%;
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        height: 5em;
+}
+
+.licont3 {
+    color: rgb(226, 226, 226);
+    width: 93%;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    height: 2em;
+}
+
+.mailacc a {
+    color: rgb(226, 226, 226);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.mailacc {
+    height: 4em;
+}
+
+
+.acclast {
+    padding-top: 1em;
+    background-color: #1c1c1c;
+    padding-bottom: 1em;
+}
+
+.acclast {
+    text-align: center;
+}
+
+.acclasth6 {
+    color: rgb(226, 226, 226);
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    height: 2em;
+    padding-left: 38px;
+    font-weight: 100;
+}
+
+.acclast span {
+    color: grey;
+}
+
+
+
+
+
 
 
