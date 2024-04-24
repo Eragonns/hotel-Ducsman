@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sass\main.css">
-    <link rel="stylesheet" href="sass\vendors\_icons.scss">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
     
     <title>Document</title>
 </head>
@@ -17,10 +17,20 @@
     <div class="contact">
         <div class="contact__presentation">
             <h2 class="titre2">Ducsman</h2>
+            
             <p>Nous sommes à votre disposition pour toute question relative à votre sejour<br> ou pour vous préparer le plus luxueux des Voyages.</p>
-            <p>Informations & Réservation<br><span class="tel">0320010203</span></p>
-            <p>E-mail<br><a href="#" class="mail">info@ducsman-group.com</a></p>
-            <p>Adresse<br>23 avenue des Nations Unies<br>75001 Paris</p>
+            <div class="contact__presentation__icons">
+                <i class="fa-solid fa-phone" id="icons"></i>
+                <p>Informations & Réservation<br><span class="tel">0320010203</span></p>
+            </div>
+            <div class="contact__presentation__icons">
+                <i class="fa-solid fa-envelope" id="icons"></i>
+                <p>E-mail<br><a href="#" class="mail">info@ducsman-group.com</a></p>
+            </div>
+            <div class="contact__presentation__icons">
+                <i class="fa-solid fa-location-dot" id="icons"></i>
+                <p>Adresse<br>23 avenue des Nations Unies<br>75001 Paris</p>
+            </div>
         </div>
         <!--info contact-->
         <div class="contact__info">
@@ -50,6 +60,7 @@
     <div class="carte">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.881118150069!2d2.2880828767780175!3d48.860477300559296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe3411d2971%3A0xb51467f04765bff!2sAv.%20des%20Nations%20Unies%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1713860707041!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+    
     <footer>
         <div class="apropos">
             <div class="apropos__texte">
@@ -59,13 +70,24 @@
             <div class="apropos__contact">
                 <h2 class="titre2">Contact</h2>
                 <p>23 avenue des Nations Unies<br>75001 Paris</p>
-                <p class="num">0320010203</p>
+                <div class="apropos__contact__icons">
+                    <i class="fa-solid fa-phone" id="apropos__icons"></i>
+                    <p class="num">0320010203</p>
+                </div>
                 <p><a href="#" target="_blank" class="email">info@ducsman.com</a></p>
+                <div class="apropos__contact__icons">
+                    <i class="fa-brands fa-instagram" id="apropos__icons"></i>
+                    <i class="fa-brands fa-twitter" id="apropos__icons"></i>
+                    <i class="fa-brands fa-youtube" id="apropos__icons"></i>
+                    <i class="fa-brands fa-facebook" id="apropos__icons"></i>
+                    <i class="fa-brands fa-pinterest" id="apropos__icons"></i>
+                </div>
             </div>
         </div>
         <div class="mentions__legales">
             <small>Mentions légales-Conditions Générales de Ventes-Politique de confidentialité<span class="mentions__legales__copyright">-© Copyright 2023-Ducsman Group</span></small>
         </div>
+        
     </footer>
     
 </body>

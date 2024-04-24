@@ -13,9 +13,22 @@ body{
     
     
 }
+.contact__presentation__icons{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+}
+#icons{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-right: 1em;
+    color: darkorange;
+}
 .tel{
     color: darkorange;
 }
+
 .mail{
     color: darkorange;
     text-decoration: none;
