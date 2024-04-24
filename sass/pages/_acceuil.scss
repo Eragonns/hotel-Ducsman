@@ -4,14 +4,13 @@ nav {
 
 .bodyacc {
     margin: 0;
-    background: url('/images/rooms/2.jpg') no-repeat;
-    background:  auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.082)), url('/images/slider/2.jpg') no-repeat 0em -10em;
 }
 
 .asideacc {
     background-color: #1B1B1B;
     width: 400px;
-    height: 1000px;
+    height: 8000px;
     display: flex;
     flex-direction: row;
 }
@@ -33,20 +32,18 @@ nav {
 
 .asideacc li {
     font-family: "Roboto", sans-serif;
-    height: 40px;
+    height: 50px;
     margin-left: 20px;
 }
 
 .asideacc h2 {
     font-size: 17px;
-    color: white;
+    color: rgb(226, 226, 226);
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     text-align: center;
-    position: absolute;
-    top: 7em;
     letter-spacing: 3px;
-    left: 70px;
+    padding-left: 1.5em;
 }
 
 .flexduc {
@@ -61,7 +58,8 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-self: center;
-    padding-top: 50px;
+    padding-top: 6em;
+    padding-left: 2em;
 }
 
 i {
@@ -110,9 +108,307 @@ a {
     width: 40px;
 }
 
-.flex i {
-    margin-left: 30px;
+// header
+
+header {
+    position: absolute;
+    top: 25%;
+    margin-left: 46em;
+    text-align: center;
+    color: rgb(226, 226, 226);
+    width: 40%;
 }
 
+header i {
+    color: #f09621;
+}
+
+header h3 {
+    font-size: 20px;
+    word-spacing: -2px;
+    letter-spacing: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    height: 0px;
+}
+
+header h4 {
+    font-size: 70px;
+    letter-spacing: 18px;
+    font-family: "Sedan", sans-serif;
+    font-weight: 100;
+    height: 2em;
+}
+
+header button {
+    width: 18em;
+    height: 4em;
+    color: rgb(226, 226, 226);
+    background: transparent;
+    border: rgb(190, 190, 190) solid 0.1em; 
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+header button:hover {
+    cursor: pointer;
+}
+
+// main
+
+.mainacc {
+    display: flex;
+    padding-bottom: 3em;
+}
+
+.test {
+    width: 79%;
+    height: 300em;
+    position: absolute;
+    left: 21%;
+    top: 95%;
+    background-color: #1f1f1f;
+}
+
+.mainexp {
+    margin: 4em;
+}
+
+.mainacc i {
+    color: #af7120;
+}
+
+.mainexp li {
+    list-style-type: none;
+    height: 2em;
+}
+
+.mainexp ul {
+    height: 8em;
+}
+
+.mainexpli1 {
+    color: #A68B67;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+}
+
+.mainexpli2 {
+    font-size: 3em;
+    color: rgb(226, 226, 226);
+    font-weight: 400;
+    text-align: top;
+}
+
+.mainexp p {
+    color: grey;
+    margin-left: 2em;
+    width: 50%;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.mainimg img {
+    width: 17em;
+    height: 23em;
+}
+
+.mainimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    position: absolute;
+    left: 55%;
+}
+
+.imgpadtop {
+    padding-top: 8em;
+}
+
+// section 2
+
+.mainaccgrid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 1fr;
+    gap: 2em;
+}
+
+.mainaccgrid img {
+    width: 100%;
+}
+
+.mainaccgrid2 img {
+    width: 100%;
+}
+
+.mainaccgrid2 {
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: 46.2% 46.2%;
+    gap: 2em;
+}
+
+.tst {
+    padding-top: 1em;
+    background-color: #1c1c1c;
+    height: 80em;
+}
+
+.gridmainbt {
+    position: absolute;
+    left: 26%;
+    top: 16.7%;
+}
+
+.gridmainbt2 {
+    position: absolute;
+    top: 16.7%;
+    left: 55%;
+}
+
+.gridmainbt3 {
+    position: absolute;
+    top: 16.7%;
+    left: 83.8%;
+}
+
+.gridmainbt4 {
+    position: absolute;
+    top: 28.5%;
+    left: 40.5%;
+}
+
+.gridmainbt5 {
+    position: absolute;
+    top: 28.5%;
+    left: 83%;
+}
+
+.tst button {
+    transition: all 1s;
+    width: 10em;
+    height: 3em;
+    color: rgb(226, 226, 226);
+    background: transparent;
+    border: rgb(190, 190, 190) solid 0.1em; 
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    letter-spacing: 5px;
+    transform: rotate(-90deg);
+}
+
+.tst button:hover {
+    cursor: pointer;
+    background-color: #1B1B1B;
+    transition: all 1s;
+}
+
+.maingridul {
+    color: rgb(226, 226, 226);
+    position: absolute;
+    top: 24%;
+}
+
+.liprix {
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+.lisuite {
+    font-size: 35px;
+    font-family: "Sedan", sans-serif;
+}
+
+.backsuite {
+    background: linear-gradient(to top, #00000083, #00000000);
+    width: 401px;
+    height: 531px;
+    position: absolute;
+    top: 15.3%;
+}
+
+.maingridul1 {
+    color: rgb(226, 226, 226);
+    position: absolute;
+    top: 32.8%;
+}
+
+.backsuite2 {
+    background: linear-gradient(to top, #00000083, #00000000);
+    width: 617px;
+    height: 386px;
+    position: absolute;
+    top: 27.1%;
+}
+
+.tst i {
+    color: rgb(226, 226, 226);
+    transform: rotate(142deg);
+    position: absolute;
+    top: 70%;
+}
+
+// section 3
+
+.tst2 {
+    padding-top: 1em;
+    background-color: #1f1f1f;
+    height: 300em;
+}
+
+.mainaccgrid3 img {
+    width: 43em;
+    height: 28em;
+}
+
+.mainaccgrid3 {
+    padding: 5em;
+    display: grid;
+    grid-template: 28em 28em 28em 28em / 43em 43em;
+}
+
+.mainaccgrid3 li {
+    list-style-type: none;
+    height: 2em;
+}
+
+.mainaccgrid3 p {
+    color: grey;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.st {
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.restobt {
+    width: 17em;
+    height: 5em;
+    background-color: #A68B67;
+    border-style: none;
+    color: rgb(226, 226, 226);
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.bak {
+    background-color: #2b2b2b;
+}
+
+.tst2 ul {
+    padding-top: 3em;
+}
 
 
