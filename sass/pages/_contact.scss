@@ -3,7 +3,9 @@ body{
     padding: 0;
     background-color: #222222;
     
+    
 }
+                                                                        /*page de contact*/
 .contact{
     display: flex;
     flex-flow: row nowrap;
@@ -12,7 +14,9 @@ body{
     margin-bottom: 10em;
     
     
+    
 }
+                                                                    /*icons page de contact*/
 .contact__presentation__icons{
     display: flex;
     flex-flow: row nowrap;
@@ -33,6 +37,7 @@ body{
     color: darkorange;
     text-decoration: none;
 }
+                                                                    /*formulaire de contact*/
 .contact__info__form{
     display: grid;
     gap: 0.5em;
@@ -95,6 +100,7 @@ body{
 .titre2{
     color: white;
 }
+                                                                    /*carte map*/
 .carte{
     text-align: center;
     filter: grayscale(100%);
