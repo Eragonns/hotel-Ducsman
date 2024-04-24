@@ -5,7 +5,7 @@ nav {
 .asideacc {
     background-color: #1B1B1B;
     width: 400px;
-    height: 8000px;
+    height: 408.1em;
     display: flex;
     flex-direction: row;
 }
@@ -58,11 +58,14 @@ nav {
 .asideacc a:hover {
     color: #A68B67;
     cursor: pointer;
+    padding-left: 2em;
+    transition: all 1s;
 }
 
 .asideacc a {
     text-decoration: none;
     color: grey;
+    transition: all 1s;
 }
 
 .infoli {
