@@ -11,6 +11,17 @@
 .email{
     color: white;
 }
+.apropos__contact__icons{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+}
+#apropos__icons{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-right: 1em;
+}
 .mentions__legales{
     text-align: center;
     color: white;
