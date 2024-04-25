@@ -1,29 +1,28 @@
-
 .bodyacc {
     margin: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.082)), url('/images/slider/2.jpg') no-repeat 0em -10em;
+    // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.082)), url('/images/slider/2.jpg') no-repeat 0em -10em;
 }
 
-// header
-
-.bodyacc {
-    margin: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.082)), url('/images/slider/2.jpg') no-repeat 0em -10em;
+.imgtop {
+    margin-left: 20%;
+    width: 80%;
+    height: 64em;
+    filter: brightness(0.7);
 }
 
 // header
 
 header {
-    position: absolute;
-    top: 25%;
-    margin-left: 46em;
     text-align: center;
     color: rgb(226, 226, 226);
-    width: 40%;
+    width: 80%;
+    margin-left: 18%;
+    position: absolute;
+    top: 20%;
 }
 
 header i {
-    color: #f09621;
+    color: #d49f59;
 }
 
 header h3 {
@@ -69,12 +68,12 @@ header button:hover {
 }
 
 .test {
-    width: 79%;
-    height: 351.4em;
-    position: absolute;
-    left: 21%;
-    top: 95%;
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
     background-color: #1f1f1f;
+    position: absolute;
+    top: 94% ;
 }
 
 .mainexp {
@@ -165,35 +164,39 @@ header button:hover {
     background-color: #1c1c1c;
     height: 80em;
 }
+ 
+.tst img {
+    filter: brightness(0.8);
+}
 
 .gridmainbt {
     position: absolute;
     left: 26%;
-    top: 14.2%;
+    top: 84.2%;
 }
 
 .gridmainbt2 {
     position: absolute;
-    top: 14.2%;
+    top: 84.2%;
     left: 55%;
 }
 
 .gridmainbt3 {
     position: absolute;
-    top: 14.2%;
+    top: 84.2%;
     left: 83.8%;
 }
 
 .gridmainbt4 {
-    position: absolute;
-    top: 24.4%;
-    left: 40.5%;
+    position: relative;
+    bottom: 57%;
+    left: 82%;
 }
 
 .gridmainbt5 {
-    position: absolute;
-    top: 24.4%;
-    left: 83%;
+    position: relative;
+    bottom: 57%;
+    left: 82%;
 }
 
 .tst button {
@@ -217,8 +220,8 @@ header button:hover {
 
 .maingridul {
     color: rgb(226, 226, 226);
-    position: absolute;
-    top: 20.7%;
+    position: relative;
+    bottom: 20%;
 }
 
 .liprix {
@@ -233,26 +236,10 @@ header button:hover {
     font-family: "Sedan", sans-serif;
 }
 
-.backsuite {
-    background: linear-gradient(to top, #00000083, #00000000);
-    width: 401px;
-    height: 529px;
-    position: absolute;
-    top: 13.1%;
-}
-
 .maingridul1 {
     color: rgb(226, 226, 226);
-    position: absolute;
-    top: 28.1%;
-}
-
-.backsuite2 {
-    background: linear-gradient(to top, #00000083, #00000000);
-    width: 617px;
-    height: 388px;
-    position: absolute;
-    top: 23.1%;
+    position: relative;
+    bottom: 30%;
 }
 
 .tst i {
@@ -268,6 +255,10 @@ header button:hover {
     padding-top: 1em;
     background-color: #1f1f1f;
     height: 125em;
+}
+
+.tst2 img {
+    filter: brightness(0.9);
 }
 
 .mainaccgrid3 button:hover {
@@ -319,38 +310,6 @@ header button:hover {
 
 .tst2 ul {
     padding-top: 3em;
-}
-
-.grid3bak {
-    background: linear-gradient(to top, #0000004b, #00000000);
-    width: 688px;
-    height: 441px;
-    position: absolute;
-    top: 34.2%;
-}
-
-.grid3bak2 {
-    background: linear-gradient(to top, #0000004b, #00000000);
-    width: 688px;
-    height: 437px;
-    position: absolute;
-    top: 50.2%;
-}
-
-.grid3bak3 {
-    background: linear-gradient(to top, #0000004b, #00000000);
-    width: 688px;
-    height: 439px;
-    position: absolute;
-    top: 42.2%;
-}
-
-.grid3bak4 {
-    background: linear-gradient(to top, #0000004b, #00000000);
-    width: 688px;
-    height: 441px;
-    position: absolute;
-    top: 58.1%;
 }
 
 // section 4
@@ -586,5 +545,10 @@ height: 20em;
 .acclast span {
     color: grey;
 }
+
+
+
+
+
 
 
