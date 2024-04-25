@@ -58,11 +58,14 @@
 .asideacc a:hover {
     color: #A68B67;
     cursor: pointer;
+    padding-left: 2em;
+    transition: all 1s;
 }
 
 .asideacc a {
     text-decoration: none;
     color: grey;
+    transition: all 1s;
 }
 
 .infoli {

@@ -1,0 +1,53 @@
+.paragraphe1{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+}
+
+
+
+.div1{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.div2{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    color: white;
+}
+
+.div3{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    color: white;
+}
+
+.div4{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    color: white;
+}
+
+.div01{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    text-align: left;
+    padding-left: 8.5%;
+}
+
+.div03{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.div02{
+    display: flex;
+    flex-flow: column nowrap;
+}

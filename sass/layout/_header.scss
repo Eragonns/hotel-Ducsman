@@ -9,7 +9,9 @@
   .image1{
     width: 70%;
     display: flex;
-    float: right;
+    flex-flow: row nowrap;
+    justify-content: right;
+    
   }
   
   .hotel{
