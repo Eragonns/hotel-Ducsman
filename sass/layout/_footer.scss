@@ -1,0 +1,22 @@
+.apropos__contact__icons{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+}
+#apropos__icons{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-right: 1em;
+}
+                                                                    /*mentions legales*/
+.mentions__legales{
+    text-align: center;
+    color: white;
+    background-color: #1B1B1B;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.mentions__legales__copyright{
+    color: grey;
+}
