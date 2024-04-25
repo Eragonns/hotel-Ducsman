@@ -7,6 +7,7 @@
 @import 'layout/footer';
 @import 'layout/header';
 @import 'layout/navbar';
+@import 'layout/navbarbouton';
 
 @import 'pages/a_propos';
 @import 'pages/acceuil';
@@ -14,7 +15,13 @@
 @import 'pages/contact';
 
 @import 'themes/admin';
+@import 'themes/media';
 @import 'themes/themes';
 
+<<<<<<< HEAD
 
 @import 'vendors/icons';
+=======
+@import 'vendors/fonts';
+@import 'vendors/icons';
+>>>>>>> 9d8608d331a7f33128bf6065a8e13c825f08846c

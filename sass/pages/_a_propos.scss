@@ -10,13 +10,14 @@
 }
 .email{
     color: white;
+    
 }
 .mentions__legales{
     text-align: center;
     color: white;
     background-color: #1B1B1B;
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 .mentions__legales__copyright{
     color: grey;
@@ -51,8 +52,8 @@ color: pink;
     color: rgb(255, 85, 85);
 }
 
-.apropos__contact a {
-    text-decoration: underline rgb(255, 196, 0);
+.email__contact a {
+    text-decoration: underline #A68B67;
 }
 
 .apropos__contact i {
@@ -76,14 +77,11 @@ color: pink;
     color: rgb(214, 27, 27);
 }
 
-.fa-facebook-f:hover {
+.fa-facebook:hover {
     color: rgb(27, 61, 214);
 }
 
-.fa-pinterest-p:hover {
+.fa-pinterest:hover {
     color: rgb(255, 85, 85);
 }
 
-.apropos__contact a {
-    text-decoration: underline rgb(255, 196, 0);
-}
