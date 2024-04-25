@@ -21,3 +21,36 @@
 .mentions__legales__copyright{
     color: grey;
 }
+
+.apropos__contact i {
+    color: rgb(226, 226, 226);
+    padding: 8px;
+}
+
+.apropos__contact i:hover {
+    cursor: pointer;
+}
+
+.fa-instagram:hover {
+color: pink;
+}
+
+.fa-twitter:hover {
+    color: rgb(69, 161, 223);
+}
+
+.fa-youtube:hover {
+    color: rgb(214, 27, 27);
+}
+
+.fa-facebook-f:hover {
+    color: rgb(27, 61, 214);
+}
+
+.fa-pinterest-p:hover {
+    color: rgb(255, 85, 85);
+}
+
+.apropos__contact a {
+    text-decoration: underline rgb(255, 196, 0);
+}

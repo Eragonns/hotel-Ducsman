@@ -1,118 +1,587 @@
-nav {
-    position: fixed;
-}
-
 .bodyacc {
     margin: 0;
-    background: url('/images/rooms/2.jpg') no-repeat;
-    background:  auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.082)), url('/images/slider/2.jpg') no-repeat 0em -10em;
 }
 
-.asideacc {
-    background-color: #1B1B1B;
-    width: 400px;
-    height: 1000px;
-    display: flex;
-    flex-direction: row;
-}
+// header
 
-.asideacc h1 {
-    margin-left: 30px;
-    color: #A68B67;
-    font-family: "Sedan", sans-serif;
-    font-weight: 300;
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 5px;
-}
-
-.asideacc ul {
-    list-style-type: none;
-    padding-top: 4em;
-}
-
-.asideacc li {
-    font-family: "Roboto", sans-serif;
-    height: 40px;
-    margin-left: 20px;
-}
-
-.asideacc h2 {
-    font-size: 17px;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    text-align: center;
+header {
     position: absolute;
-    top: 7em;
-    letter-spacing: 3px;
-    left: 70px;
+    top: 25%;
+    margin-left: 46em;
+    text-align: center;
+    color: rgb(226, 226, 226);
+    width: 40%;
 }
 
-.flexduc {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+header i {
+    color: #f09621;
 }
 
-.flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-self: center;
-    padding-top: 50px;
-}
-
-i {
-    color: #A68B67;
+header h3 {
+    font-size: 20px;
+    word-spacing: -2px;
     letter-spacing: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    height: 0px;
 }
 
-a:hover {
-    color: #A68B67;
+header h4 {
+    font-size: 70px;
+    letter-spacing: 18px;
+    font-family: "Sedan", sans-serif;
+    font-weight: 100;
+    height: 2em;
+}
+
+header button {
+    width: 18em;
+    height: 4em;
+    color: rgb(226, 226, 226);
+    background: transparent;
+    border: rgb(190, 190, 190) solid 0.1em; 
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    transition: all 1s;
+}
+
+header button:hover {
     cursor: pointer;
+    background-color: #1B1B1B;
+    transition: all 1s;
 }
 
-a {
-    text-decoration: none;
-    color: grey;
+// main
+
+.mainacc {
+    display: flex;
+    padding-bottom: 3em;
 }
 
-.infoli {
+.test {
+    width: 79%;
+    height: 351.4em;
+    position: absolute;
+    left: 21%;
+    top: 95%;
+    background-color: #1f1f1f;
+}
+
+.mainexp {
+    margin: 4em;
+}
+
+.mainacc i {
+    color: #af7120;
+}
+
+.mainexp li {
+    list-style-type: none;
+    height: 2em;
+}
+
+.mainexp ul {
+    height: 8em;
+}
+
+.mainexpli1 {
+    color: #A68B67;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+}
+
+.mainexpli2 {
+    font-size: 3em;
+    color: rgb(226, 226, 226);
+    font-weight: 400;
+    text-align: top;
+}
+
+.mainexp p {
     color: grey;
+    margin-left: 2em;
+    width: 50%;
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
 }
 
-.numli {
+.mainimg img {
+    width: 17em;
+    height: 23em;
+}
+
+.mainimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    position: absolute;
+    left: 55%;
+}
+
+.imgpadtop {
+    padding-top: 8em;
+}
+
+// section 2
+
+.mainaccgrid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 1fr;
+    gap: 2em;
+}
+
+.mainaccgrid img {
+    width: 100%;
+}
+
+.mainaccgrid2 img {
+    width: 100%;
+}
+
+.mainaccgrid2 {
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: 46.2% 46.2%;
+    gap: 2em;
+}
+
+.tst {
+    padding-top: 1em;
+    background-color: #1c1c1c;
+    height: 80em;
+}
+
+.gridmainbt {
+    position: absolute;
+    left: 26%;
+    top: 14.2%;
+}
+
+.gridmainbt2 {
+    position: absolute;
+    top: 14.2%;
+    left: 55%;
+}
+
+.gridmainbt3 {
+    position: absolute;
+    top: 14.2%;
+    left: 83.8%;
+}
+
+.gridmainbt4 {
+    position: absolute;
+    top: 24.4%;
+    left: 40.5%;
+}
+
+.gridmainbt5 {
+    position: absolute;
+    top: 24.4%;
+    left: 83%;
+}
+
+.tst button {
+    transition: all 1s;
+    width: 10em;
+    height: 3em;
+    color: rgb(226, 226, 226);
+    background: transparent;
+    border: rgb(190, 190, 190) solid 0.1em; 
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    letter-spacing: 5px;
+    transform: rotate(-90deg);
+}
+
+.tst button:hover {
+    cursor: pointer;
+    background-color: #1B1B1B;
+    transition: all 1s;
+}
+
+.maingridul {
+    color: rgb(226, 226, 226);
+    position: absolute;
+    top: 20.7%;
+}
+
+.liprix {
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+.lisuite {
+    font-size: 35px;
+    font-family: "Sedan", sans-serif;
+}
+
+.backsuite {
+    background: linear-gradient(to top, #00000083, #00000000);
+    width: 401px;
+    height: 529px;
+    position: absolute;
+    top: 13.1%;
+}
+
+.maingridul1 {
+    color: rgb(226, 226, 226);
+    position: absolute;
+    top: 28.1%;
+}
+
+.backsuite2 {
+    background: linear-gradient(to top, #00000083, #00000000);
+    width: 617px;
+    height: 388px;
+    position: absolute;
+    top: 23.1%;
+}
+
+.tst i {
+    color: rgb(226, 226, 226);
+    transform: rotate(142deg);
+    position: absolute;
+    top: 70%;
+}
+
+// section 3
+
+.tst2 {
+    padding-top: 1em;
+    background-color: #1f1f1f;
+    height: 125em;
+}
+
+.mainaccgrid3 button:hover {
+    cursor: pointer;
+}
+
+.mainaccgrid3 img {
+    width: 43em;
+    height: 28em;
+}
+
+.mainaccgrid3 {
+    padding: 5em;
+    display: grid;
+    grid-template: 28em 28em 28em 28em / 43em 43em;
+}
+
+.mainaccgrid3 li {
+    list-style-type: none;
+    height: 2em;
+}
+
+.mainaccgrid3 p {
+    color: grey;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.st {
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.restobt {
+    width: 17em;
+    height: 5em;
+    background-color: #A68B67;
+    border-style: none;
+    color: rgb(226, 226, 226);
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.bak {
+    background-color: #2d2d2d;
+}
+
+.tst2 ul {
+    padding-top: 3em;
+}
+
+.grid3bak {
+    background: linear-gradient(to top, #0000004b, #00000000);
+    width: 688px;
+    height: 441px;
+    position: absolute;
+    top: 34.2%;
+}
+
+.grid3bak2 {
+    background: linear-gradient(to top, #0000004b, #00000000);
+    width: 688px;
+    height: 437px;
+    position: absolute;
+    top: 50.2%;
+}
+
+.grid3bak3 {
+    background: linear-gradient(to top, #0000004b, #00000000);
+    width: 688px;
+    height: 439px;
+    position: absolute;
+    top: 42.2%;
+}
+
+.grid3bak4 {
+    background: linear-gradient(to top, #0000004b, #00000000);
+    width: 688px;
+    height: 441px;
+    position: absolute;
+    top: 58.1%;
+}
+
+// section 4
+
+.mainaccgrid4 {
+    padding: 1em;
+    display: grid;
+    grid-template: 25em / 28% 28% 28%;
+    gap: 3em;
+}
+
+.lih5 {
+    color: rgb(226, 226, 226);
+    font-size: 4em;
+    font-family: "Sedan", sans-serif;
+    text-align: center;
+    width: 80%;
+}
+
+.mainaccgrid4 i {
+    color: #A68B67;
+}
+
+.accp5 {
+    color: grey;
+    margin-left: 2em;
+    width: 93%;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    height: 5em;
+}
+
+.mainaccgrid4 li {
+    list-style-type: none;
+}
+
+.infoli2 {
+    color: grey;
+    font-size: 25px;
+}
+
+.numli2 {
     color: #A68B67;
     display: flex;
     flex-direction: column;
     align-self: flex-start;
+    font-size: 20px;
 }
 
-.nuli {
+.nuli2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
+    padding-left: 1em;
 }
 
-.liionfo {
+.liionfo2 {
     display: flex;
+    padding-left: 3em;
 }
 
-.nuli li {
-    height: 30px;
+.dej1 {
+    color: rgb(226, 226, 226);
+    font-size: 2em;
+    font-family: "Sedan", sans-serif;
+    padding-top: 2em;
+    height: 2em;
 }
 
-.liionfo i {
-    width: 40px;
+.dej2 {
+    color: #99774c;
+    font-size: 50px;
+    letter-spacing: 2px;
+    height: 2em;
 }
 
-.flex i {
-    margin-left: 30px;
+.spandej {
+    color: grey;
+    letter-spacing: 2px;
+    font-size: 25px;
 }
+
+.dej3 {
+    color: grey;
+    font-size: 25px;
+    height: 40px;
+}
+
+.bak i {
+    padding-right: 1em;
+    color: #99774c;
+}
+
+.dejuncheck i {
+    color: grey;
+}
+
+// section 5
+
+.sec5 {
+    padding: 6em;
+}
+
+.sec5 h5 {
+    color: rgb(226, 226, 226);
+    font-size: 3em;
+    font-family: "Sedan", sans-serif;
+}
+
+.sec5grid {
+    display: grid;
+    grid-template: 15em 15em / 28% 28% 28%;
+    gap: 3em;
+}
+
+.gridborder {
+    padding: 1em;
+    border: 1px solid rgba(128, 128, 128, 0.123);
+}
+
+.fa-earth-europe {
+    font-size: 3em;
+}
+
+.sec5 i {
+    color: #99774c;
+    height: 1em;
+}
+
+.sec5 li {
+    list-style-type: none;
+}
+
+.lisec51 {
+    color: rgb(226, 226, 226);
+    font-size: 2em;
+    font-family: "Sedan", sans-serif;
+    height: 2em;
+    font-weight: 100;
+}
+
+.lisec52 {
+    color: grey;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+// footer
+
+.accfooter {
+    display: flex;
+    padding: 5em;
+}
+
+.accfooter li {
+    list-style-type: none;
+}
+
+.accfooterap {
+width: 48em;
+height: 20em;
+}
+
+.accp4 {
+    color: rgb(226, 226, 226);
+    font-size: 3em;
+    font-family: "Sedan", sans-serif;
+    height: 2em;
+    padding-left: 38px;
+    font-weight: 100;
+}
+
+.contactacc {
+    padding-left: 3em;
+}
+
+.licont1 {
+    color: rgb(226, 226, 226);
+    font-size: 3em;
+    font-family: "Sedan", sans-serif;
+    height: 2em;
+    font-weight: 100;
+}
+
+.licont2 {
+        color: grey;
+        width: 93%;
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        height: 5em;
+}
+
+.licont3 {
+    color: rgb(226, 226, 226);
+    width: 93%;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    height: 2em;
+}
+
+.mailacc a {
+    color: rgb(226, 226, 226);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.mailacc {
+    height: 4em;
+}
+
+
+.acclast {
+    padding-top: 1em;
+    background-color: #1c1c1c;
+    padding-bottom: 1em;
+}
+
+.acclast {
+    text-align: center;
+}
+
+.acclasth6 {
+    color: rgb(226, 226, 226);
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    height: 2em;
+    padding-left: 38px;
+    font-weight: 100;
+}
+
+.acclast span {
+    color: grey;
+}
+
+
+
+
 
 
 
