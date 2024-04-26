@@ -1,4 +1,4 @@
-@media only screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
   
     .contact {
      flex-direction: column;
@@ -7,12 +7,46 @@
    
     }
     
+    
     .asideacc {
+        visibility: hidden;
+    }
+    #openBtn{
+        visibility: visible;
+        position: absolute;
+        top: 0%;
+        margin: 1em;
+        
+    }
+    .burger__icon span{
+        background-color: white;
+    }
+  
+    .sidenav li{
+        height: 5em;
+    }
+    .sidenav{
+        visibility: visible;
+        background-color:#1B1B1B ;
+    }
+   
+    .carte{
         display: none;
     }
+    .contact__info{
+        margin-top: 2em;
+    }
+    .apropos{
+        flex-direction: column ;
+    }
+    .mentions__legales{
+        text-align: center;
+    }
 }
-     
-     
-     
-   
+
+@media  screen and (min-width: 500px){
+  #openBtn{
+    display: none;
+  }
+}
     
