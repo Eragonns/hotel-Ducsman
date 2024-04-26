@@ -1,4 +1,4 @@
-@media only screen and (min-width: 390px) {
+@media only screen and (max-width: 390px) {
   
     .contact {
      flex-direction: column;
@@ -6,13 +6,13 @@
      justify-content: center;
    
     }
-    {
+    
     .asideacc {
         display: none;
     }
-    }
+}
      
      
      
-   }
+   
     
