@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-flow:row nowrap;
     justify-content: space-around;
-    color: white;
+    color: rgb(152, 150, 150);
     font-family: "Barlow", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -74,6 +74,7 @@ body{
 .deluxe{
     color: white;
     padding-left: 3.5%;
+    font-family: "Gilda Display", serif;
 }
 
 main{
@@ -84,16 +85,19 @@ main{
 .ducsman{
     color: #A68B67;
     padding-left: 3.5%;
+    font-family: "Gilda Display", serif;
 }
 
 .checkin{
     margin: 0;
     font-size: x-large;
+    font-family: "Gilda Display", serif;
 }
 
 .checkout{
     margin: 0;
     font-size: x-large;
+    font-family: "Gilda Display", serif;
 }
 
 .amenagement li {
@@ -111,22 +115,25 @@ li i {
 
 .amé{
     font-size: x-large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Gilda Display", serif;
 }
 
 .instructionne{
     margin: 0;
     font-size: x-large;
+    font-family: "Gilda Display", serif;
 }
 
 .animals{
     margin: 0;
     font-size: x-large; 
+    font-family: "Gilda Display", serif;
 }
 
 .childs{
     margin: 0;
     font-size: x-large;
+    font-family: "Gilda Display", serif;
 }
 
 .div0{
@@ -140,6 +147,7 @@ li i {
     font-family: "Barlow", sans-serif;
     font-weight: 100;
     font-style: normal;
+    color: rgb(152, 150, 150)
 }
 
 .boutton{
