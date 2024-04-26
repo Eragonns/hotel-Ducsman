@@ -10,6 +10,9 @@ body{
     flex-flow:row nowrap;
     justify-content: space-around;
     color: white;
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 
@@ -94,6 +97,7 @@ main{
     list-style-type: none;
     font-size: 20px;
     height: 2em;
+    
 
 }
 
@@ -104,6 +108,7 @@ li i {
 
 .amé{
     font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .instructionne{
@@ -129,9 +134,26 @@ li i {
 .p3{
     position: relative;
     bottom: 5%;
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 .button{
     margin: 8%;
 }
+
+.p4{
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.baby{
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
 
