@@ -13,7 +13,7 @@ body{
     font-family: "Barlow", sans-serif;
     font-weight: 100;
     font-style: normal;
-    padding-left: 4.5%;
+    padding-left: 3.5%;
 }
 
 
@@ -155,6 +155,7 @@ li i {
     width: 15em;
     background-color: grey;
     border: 0;
+    cursor: pointer;
 
 }
 
@@ -162,14 +163,18 @@ li i {
     font-family: "Barlow", sans-serif;
     font-weight: 100;
     font-style: normal;
+    color: grey;
 }
 
 .baby{
     font-family: "Barlow", sans-serif;
     font-weight: 100;
     font-style: normal;
+    color: grey;
 
 }
 
-
+li{
+    color: rgb(109, 108, 108);
+}
 
