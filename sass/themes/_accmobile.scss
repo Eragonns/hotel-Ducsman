@@ -1,0 +1,20 @@
+@media  screen and (max-width: 500px){
+    .headeracc{
+      display: none;
+    }
+
+    .imgtop {
+        display: none;
+    }
+
+    .bodyacc {
+        background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), url('/images/slider/2\ -\ Copie.jpg') no-repeat;
+        background-position: 75% 10%;
+    }
+
+    .test {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+  }
