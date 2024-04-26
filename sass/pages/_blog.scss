@@ -10,6 +10,10 @@ body{
     flex-flow:row nowrap;
     justify-content: space-around;
     color: white;
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding-left: 4.5%;
 }
 
 
@@ -27,7 +31,7 @@ body{
 
 .div2{
     display: flex;
-    flex-flow:row nowrap;
+    flex-flow:column nowrap;
     justify-content: left;
     color: white;
     margin-left: 8%;
@@ -35,7 +39,7 @@ body{
 
 .div3{
     display: flex;
-    flex-flow:row nowrap;
+    flex-flow:column nowrap;
     justify-content: left;
     color: white;
     margin-left: 8%;
@@ -43,7 +47,7 @@ body{
 
 .div4{
     display: flex;
-    flex-flow:row nowrap;
+    flex-flow:column nowrap;
     justify-content: left;
     color: white;
     margin-left: 8%;
@@ -54,7 +58,7 @@ body{
     flex-flow: column nowrap;
     justify-content: space-around;
     text-align: left;
-    padding-left: 7.6%;
+    padding-left: 4.5%;
 }
 
 .div03{
@@ -67,8 +71,9 @@ body{
     flex-flow: column nowrap;
 }
 
-h2, h3{
+.deluxe{
     color: white;
+    padding-left: 3.5%;
 }
 
 main{
@@ -78,6 +83,7 @@ main{
 
 .ducsman{
     color: #A68B67;
+    padding-left: 3.5%;
 }
 
 .checkin{
@@ -94,6 +100,7 @@ main{
     list-style-type: none;
     font-size: 20px;
     height: 2em;
+    
 
 }
 
@@ -104,6 +111,56 @@ li i {
 
 .amé{
     font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.instructionne{
+    margin: 0;
+    font-size: x-large;
+}
+
+.animals{
+    margin: 0;
+    font-size: x-large; 
+}
+
+.childs{
+    margin: 0;
+    font-size: x-large;
+}
+
+.div0{
+    margin: 0;
+    padding: 0;
+}
+
+.p3{
+    position: relative;
+    bottom: 5%;
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.boutton{
+    height: 3em;
+    width: 15em;
+    background-color: grey;
+    border: 0;
+
+}
+
+.p4{
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.baby{
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
 }
 
 
