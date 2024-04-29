@@ -1,10 +1,10 @@
 .apropos{
     display: flex;
-    flex-flow: row;
+    flex-flow: row nowrap;
     justify-content: space-around;
     color: grey;
     padding-bottom: 5em;
-    margin-left: 19%;
+   
 }
 .num{
     color: white;
