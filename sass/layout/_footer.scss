@@ -1,10 +1,50 @@
+.apropos__contact{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
 .apropos__contact__icons{
     display: flex;
     flex-flow: row nowrap;
     justify-content: left;
     
 }
-#apropos__icons{
+#apropos__icons1{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-right: 1em;
+    
+}
+#apropos__icons2{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-right: 1em;
+    
+}
+#apropos__icons3{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-right: 1em;
+    
+}
+#apropos__icons4{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-right: 1em;
+    
+}
+#apropos__icons5{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-right: 1em;
+    
+}
+#apropos__icons6{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -17,6 +57,9 @@
     background-color: #1B1B1B;
     padding-top: 2em;
     padding-bottom: 2em;
+    position: relative;
+    left: 9%;
+    
     
 }
 

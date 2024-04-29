@@ -1,5 +1,5 @@
 @media screen and (max-width: 500px) {
-  
+   
     .contact {
      flex-direction: column;
      align-items: center;
@@ -57,6 +57,9 @@
     }
     .mentions__legales{
         position: absolute;
+        left: 0;
+        
+        
     }
 
     .container{
