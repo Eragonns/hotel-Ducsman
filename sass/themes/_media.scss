@@ -54,7 +54,19 @@
     }
 
     .container{
-        position: absolute;
+        font-size: 50%;
+        bottom: 80%;
+        display: flex;
+        flex-direction: row;
+        left: 50%;
+        top: 0%;
+        align-content: center;
+
+    }
+
+    .star{
+        display: flex;
+        flex-flow: row nowrap;
     }
 
    
