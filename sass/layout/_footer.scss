@@ -1,8 +1,9 @@
 .apropos__contact{
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
+    flex-flow: column nowrap;
+    
 }
+
 .apropos__contact__icons{
     display: flex;
     flex-flow: row nowrap;
