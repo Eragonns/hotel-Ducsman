@@ -74,7 +74,7 @@
     .star{
         display: flex;
         flex-flow: row nowrap;
-
+        top: 35%;
     }
 
     .hotel{
@@ -83,12 +83,33 @@
 
     .title1{
         position: relative;
-        left: -50%;
+        transform: translateX(-115%);
+        top: 45%;
     }
 
-    #star{
+    #star1{
         position: relative;
-        right: +230%;
+        right: 290%;
+    }
+
+    #star2{
+        position: relative;
+        right: 290%;
+    }
+
+    #star3{
+        position: relative;
+        right: 290%;
+    }
+
+    #star4{
+        position: relative;
+        right: 290%;
+    }
+
+    #star5{
+        position: relative;
+        right: 290%;
     }
 
     .P1{
@@ -108,9 +129,19 @@
     }
 
     .Main1{
-        margin-left: 10%;
+        margin-left: 7%;
     }
 
+    
+
+    .image1 {
+        display: none;
+    }
+
+    .image1mob{
+        width: 100%;
+        float: right;
+      }
 
     
 
