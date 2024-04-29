@@ -9,6 +9,9 @@
     filter: brightness(0.7);
 }
 
+html {
+    margin: 0;
+}
 
 // header
 
@@ -85,7 +88,7 @@
 }
 
 .slide-button {
-    position: absolute;
+    position: sticky;
     z-index: 2;
     background: none;
     border: none;
@@ -104,7 +107,9 @@
 }
 
 .slide-button.next {
-    right: 1rem;
+   transform: translateX(21.8em);
+   position: absolute;
+   top: 7.5em;
 }
 
 .slide-button.prec {
