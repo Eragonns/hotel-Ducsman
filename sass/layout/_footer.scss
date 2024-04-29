@@ -1,10 +1,61 @@
+.footer__apropos{
+    width: 80%;
+    margin-left: 20%;
+    
+}
+.footermob{
+    width: auto;
+
+   
+}
+.apropos__contact{
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+
 .apropos__contact__icons{
     display: flex;
     flex-flow: row nowrap;
     justify-content: left;
     
 }
-#apropos__icons{
+#apropos__icons1{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-right: 1em;
+    
+}
+#apropos__icons2{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-right: 1em;
+    
+}
+#apropos__icons3{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-right: 1em;
+    
+}
+#apropos__icons4{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-right: 1em;
+    
+}
+#apropos__icons5{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-right: 1em;
+    
+}
+#apropos__icons6{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -17,9 +68,103 @@
     background-color: #1B1B1B;
     padding-top: 2em;
     padding-bottom: 2em;
+    position: relative;
+    
+    
+    
     
 }
 
 .mentions__legales__copyright{
     color: grey;
 }
+.apropos{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    color: grey;
+    padding-bottom: 5em;
+    margin-left: 7%;
+    margin-right: 13%;
+   
+}
+.num{
+    color: white;
+}
+.email{
+    color: white;
+    
+}
+.mentions__legales{
+    text-align: center;
+    color: white;
+    background-color: #1B1B1B;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.mentions__legales__copyright{
+    color: grey;
+}
+
+.apropos__contact i {
+    color: rgb(226, 226, 226);
+    padding: 8px;
+}
+
+.apropos__contact i:hover {
+    cursor: pointer;
+}
+
+.fa-instagram:hover {
+color: pink;
+}
+
+.fa-twitter:hover {
+    color: rgb(69, 161, 223);
+}
+
+.fa-youtube:hover {
+    color: rgb(214, 27, 27);
+}
+
+.fa-facebook-f:hover {
+    color: rgb(27, 61, 214);
+}
+
+.fa-pinterest-p:hover {
+    color: rgb(255, 85, 85);
+}
+
+.email__contact a {
+    text-decoration: underline #A68B67;
+}
+
+.apropos__contact i {
+    color: rgb(226, 226, 226);
+    padding: 8px;
+}
+
+.apropos__contact i:hover {
+    cursor: pointer;
+}
+
+.fa-instagram:hover {
+color: pink;
+}
+
+.fa-twitter:hover {
+    color: rgb(69, 161, 223);
+}
+
+.fa-youtube:hover {
+    color: rgb(214, 27, 27);
+}
+
+.fa-facebook:hover {
+    color: rgb(27, 61, 214);
+}
+
+.fa-pinterest:hover {
+    color: rgb(255, 85, 85);
+}
+
