@@ -1,20 +1,292 @@
 @media  screen and (max-width: 500px){
-    .headeracc{
-      display: none;
-    }
-
     .imgtop {
         display: none;
     }
 
     .bodyacc {
-        background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), url('/images/slider/2\ -\ Copie.jpg') no-repeat;
+        background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), url('/images/slider/2.jpg') no-repeat;
         background-position: 75% 10%;
+    }
+
+    .headeracc {
+        text-align: center;
+        color: rgb(226, 226, 226);
+        width: 80%;
+        margin-left: 10%;
+        position: absolute;
+        top: 20%;
     }
 
     .test {
         width: 100%;
-        margin-left: 0;
+        margin: 0;
+        height: 54em;
+    }
+
+    .carousel {
+        display: none;
+    }
+
+    .tst {
+        height: 60em;
+    }
+
+    .tst2 {
+        height: 190em;
+    }
+
+    .h3mobi {
+        visibility: visible;
+        color: #d49f59;
+    }
+
+    .phabs {
+        visibility: hidden;
+    }
+
+    .headeracc h4 {
+        visibility: hidden;
+    }
+
+    .headeracc button {
+        border: rgb(190, 190, 190) solid 0.2em; 
+    }
+
+    .mainaccgrid img {
+        visibility: hidden;
     }
     
-  }
+    .mainexp {
+        margin: 1px;
+    }
+
+    .mainexpli1 {
+        word-spacing: -5px;
+    }
+
+    .mainexpli2 {
+        font-size: 2em;
+    }
+
+    .mainexp p {
+        width: 85%;
+        padding-top: 2em;
+    }
+
+
+    .mainaccgrid img {
+        display: none;
+    }
+
+    .mobbt1 {
+        width: 10em;
+        height: 3em;
+        color: rgb(226, 226, 226);
+        background: transparent;
+        border: rgb(190, 190, 190) solid 0.2em; 
+        font-family: "Roboto", sans-serif;
+        font-size: 10px;
+        letter-spacing: 5px;
+        position: absolute;
+        left: 80%;
+        bottom: 40%;
+        visibility: visible;
+    }
+
+    .mob_ {
+        visibility: visible;
+        margin-left: 2em;
+    }
+
+
+    .lisuit {
+        font-size: 20px;
+        visibility: visible;
+        color: white;
+        margin-left: 30px;
+    }
+
+    .gridmainbt, .gridmainbt2, .gridmainbt3, .gridmainbt4, .gridmainbt5 {
+visibility: hidden;
+    }
+
+    .liprix, .lisuite {
+        display: none;
+    }
+
+    .lipri {
+        visibility: visible;
+        color: white;
+        font-size: 25px;
+        letter-spacing: 3px;
+        margin-left: 30px;
+    }
+
+    .ihidm {
+        visibility: hidden;
+    }
+
+    .mainaccgrid li {
+        height: 20px;
+    }
+
+    .mainaccgrid {
+        display: flex;
+        flex-direction: column;
+        padding-top: 4em;
+    }
+
+    
+.mainaccgrid2 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 10%
+    }
+   
+    .mainaccgrid div {
+        height: 6em;
+    }
+
+    .mainaccgrid3 {
+display: flex;
+flex-direction: column;
+width: 23em;
+padding: 1px;
+    }
+
+    .bak {
+        background-color: transparent;
+    }
+
+    .mainaccgrid3 img {
+        width: 21em;
+        height: 15em;
+    }
+
+    .restobtmob {
+        height: 4em;
+        width: 13em;
+        font-size: 10px;
+        letter-spacing: 0px;
+        visibility: visible;
+        background-color: #A68B67;
+        border-style: none;
+        color: rgb(226, 226, 226);
+        margin-left: 45px;
+    }
+
+    .restobt {
+        visibility: hidden;
+    }
+
+    .pmob {
+        visibility: visible;
+        color: white;
+        font-weight: 900;
+    }
+
+    .imgpc {
+        display: none;
+    }
+
+    .imgmob {
+        visibility: visible;
+        padding-bottom: 1em;
+        margin-left: 45px;
+    }
+
+    .mainacc {
+        padding-bottom: 18em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainimg {
+        position: absolute;
+        top: 57%;
+        left: 30%;
+    }
+
+    .mainacc img {
+        width: 18em;
+        height: 13em;
+        padding: 1em;
+    }
+
+    .imgpadtop {
+        margin-top: 5em;
+    }
+
+    .maingridul {
+        color: rgb(226, 226, 226);
+        position: relative;
+        bottom: 20%;
+        right: 10%;
+    }
+
+    .mainaccgrid4 {
+        background-color: #1c1c1c;
+        height: 30em;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20em;
+    }
+    .opt {
+        display: flex;
+    }
+
+    .mobgrid {
+        display: grid;
+        grid-template: 16em / 12em 12em;
+        gap: 7px;
+    }
+
+    .dej1 {
+        font-size: 20px;
+        height: 3em;
+    }
+
+    .dej2 {
+        font-size: 15px;
+    }
+
+    .spandej {
+        font-size: 12px;
+    }
+
+    .dej3 {
+        font-size: 12px;
+    }
+
+    .bkmob {
+        background-color: #2d2d2d;
+    }
+
+    .sec5 {
+        background-color: #1c1c1c;
+        height: 60em;
+        padding: 5px;
+        padding-top: 4em;
+    }
+
+    .sec5grid {
+        display: grid;
+        grid-template: 15em 15em 15em / 12em 12em;
+        gap: 1em;
+    }
+
+    .lisec51 {
+        font-size: 2em;
+        height: 80px;
+    }
+    
+    .lisec52 {
+        font-size: 12px;
+    }
+
+    .footermob {
+        background-color: #1c1c1c;
+        height: auto;
+    }
+}

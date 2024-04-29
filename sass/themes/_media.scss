@@ -1,4 +1,4 @@
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   
     .contact {
      flex-direction: column;
@@ -7,14 +7,14 @@
    
     }
     
-    
     .asideacc {
         visibility: hidden;
         
     }
+    
     #openBtn{
         visibility: visible;
-        position: absolute;
+        position: fixed;
         top: 0%;
         margin: 1em;
     }
@@ -27,7 +27,10 @@
         background-color: #1B1B1B;
         padding: 10px;
         border-radius: 20px;
+        position: fixed;
     }
+    
+    
   
     .sidenav li{
         height: 5em;
@@ -50,7 +53,6 @@
     }
     .mentions__legales{
         position: absolute;
-        
     }
 
     .container{
@@ -69,8 +71,6 @@
         flex-flow: row nowrap;
     }
 
-   
-   
 }
 
 @media  screen and (min-width: 500px){
@@ -79,8 +79,3 @@
   }
 }
 
-
-
-
-
-    
