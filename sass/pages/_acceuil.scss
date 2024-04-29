@@ -1,6 +1,5 @@
 .bodyacc {
     margin: 0;
-    // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.082)), url('/images/slider/2.jpg') no-repeat 0em -10em;
 }
 
 .imgtop {
@@ -10,9 +9,10 @@
     filter: brightness(0.7);
 }
 
+
 // header
 
-header {
+.headeracc {
     text-align: center;
     color: rgb(226, 226, 226);
     width: 80%;
@@ -21,44 +21,96 @@ header {
     top: 20%;
 }
 
-header i {
+.headeracc i {
     color: #d49f59;
+    font-size: 1em;
+    width: 2em;
 }
 
-header h3 {
+.h3mobi {
+    visibility: hidden;
+}
+
+.headeracc h3 {
     font-size: 20px;
     word-spacing: -2px;
-    letter-spacing: 5px;
-    font-family: "Roboto", sans-serif;
+    letter-spacing: 8px;
+    font-family: "Barlow Condensed", sans-serif;
     font-weight: 300;
     height: 0px;
 }
 
-header h4 {
+.headeracc h4 {
     font-size: 70px;
     letter-spacing: 18px;
-    font-family: "Sedan", sans-serif;
+    font-family: "Gilda Display", serif;
     font-weight: 100;
     height: 2em;
 }
 
-header button {
+.headeracc button {
     width: 18em;
     height: 4em;
     color: rgb(226, 226, 226);
     background: transparent;
     border: rgb(190, 190, 190) solid 0.1em; 
-    font-family: "Roboto", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 15px;
-    letter-spacing: 2px;
+    letter-spacing: 6px;
     transition: all 1s;
 }
 
-header button:hover {
+.headeracc button:hover {
     cursor: pointer;
     background-color: #1B1B1B;
     transition: all 1s;
 }
+
+// carousel
+
+.carousel {
+    position: relative;
+}
+
+.accslide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 2s;
+}
+
+.accslide[data-active] {
+    opacity: 1;
+    transition-delay: 0s;
+}
+
+.slide-button {
+    position: absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    margin-left: 20%;
+    transform: translateY(600%);
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.slide-button:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 1s;
+}
+
+.slide-button.next {
+    right: 1rem;
+}
+
+.slide-button.prec {
+    left: 1rem;
+}
+
 
 // main
 
@@ -95,10 +147,10 @@ header button:hover {
 
 .mainexpli1 {
     color: #A68B67;
-    font-family: "Roboto", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-weight: 400;
     font-size: 1em;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
     word-spacing: 5px;
 }
 
@@ -106,14 +158,14 @@ header button:hover {
     font-size: 3em;
     color: rgb(226, 226, 226);
     font-weight: 400;
-    text-align: top;
+    font-family: "Gilda Display", serif;
 }
 
 .mainexp p {
     color: grey;
     margin-left: 2em;
     width: 50%;
-    font-family: "Roboto", sans-serif;
+    font-family: "Barlow", sans-serif;
     font-size: 20px;
 }
 
@@ -152,11 +204,21 @@ header button:hover {
     width: 100%;
 }
 
+.ihidm {
+    visibility: visible;
+}
+
+.mob_ {
+    visibility: hidden;
+}
+
 .mainaccgrid2 {
     padding-top: 2em;
     display: grid;
-    grid-template-columns: 46.2% 46.2%;
+    grid-template-columns: 39em 39em;
     gap: 2em;
+    position: relative;
+    bottom: 28%;
 }
 
 .tst {
@@ -171,45 +233,54 @@ header button:hover {
 
 .gridmainbt {
     position: absolute;
-    left: 26%;
-    top: 84.2%;
+    left: 24%;
+    top: 85%;
+}
+
+.mobbt1 {
+    visibility: hidden;
 }
 
 .gridmainbt2 {
     position: absolute;
-    top: 84.2%;
-    left: 55%;
+    top: 85%;
+    left: 54%;
 }
 
 .gridmainbt3 {
     position: absolute;
-    top: 84.2%;
+    top: 85%;
     left: 83.8%;
 }
 
 .gridmainbt4 {
     position: relative;
-    bottom: 57%;
+    bottom: 55%;
     left: 82%;
 }
 
 .gridmainbt5 {
     position: relative;
-    bottom: 57%;
+    bottom: 55%;
     left: 82%;
 }
 
-.tst button {
+.gridmainbt, .gridmainbt2, .gridmainbt3, .gridmainbt4, .gridmainbt5 {
     transition: all 1s;
     width: 10em;
     height: 3em;
     color: rgb(226, 226, 226);
     background: transparent;
     border: rgb(190, 190, 190) solid 0.1em; 
-    font-family: "Roboto", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 15px;
-    letter-spacing: 5px;
+    letter-spacing: 8px;
+    font-weight: 600;
     transform: rotate(-90deg);
+}
+
+.lipri, .lisuit {
+    visibility: hidden;
 }
 
 .tst button:hover {
@@ -221,28 +292,30 @@ header button:hover {
 .maingridul {
     color: rgb(226, 226, 226);
     position: relative;
-    bottom: 20%;
+    bottom: 22%;
 }
 
 .liprix {
     font-size: 20px;
     letter-spacing: 5px;
     font-weight: 300;
-    font-family: "Roboto", sans-serif;
+    font-family: "Barlow", sans-serif;
+    color: rgb(226, 226, 226);
 }
 
 .lisuite {
     font-size: 35px;
-    font-family: "Sedan", sans-serif;
+    font-family: "Gilda Display", serif;
+    color: rgb(226, 226, 226);
 }
 
 .maingridul1 {
     color: rgb(226, 226, 226);
     position: relative;
-    bottom: 30%;
+    bottom: 32%;
 }
 
-.tst i {
+.ihidm {
     color: rgb(226, 226, 226);
     transform: rotate(142deg);
     position: absolute;
@@ -257,9 +330,17 @@ header button:hover {
     height: 125em;
 }
 
+.imgmob {
+    visibility: hidden;
+}
+
 .tst2 img {
     filter: brightness(0.9);
 }
+
+.pmob {
+    visibility: hidden;
+ }
 
 .mainaccgrid3 button:hover {
     cursor: pointer;
@@ -268,6 +349,10 @@ header button:hover {
 .mainaccgrid3 img {
     width: 43em;
     height: 28em;
+}
+
+.bak p {
+    margin-left: 40px;
 }
 
 .mainaccgrid3 {
@@ -284,7 +369,7 @@ header button:hover {
 .mainaccgrid3 p {
     color: grey;
     width: 100%;
-    font-family: "Roboto", sans-serif;
+    font-family: "Barlow", sans-serif;
     font-size: 20px;
 }
 
@@ -299,9 +384,14 @@ header button:hover {
     background-color: #A68B67;
     border-style: none;
     color: rgb(226, 226, 226);
-    font-family: "Roboto", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 15px;
-    letter-spacing: 5px;
+    letter-spacing: 8px;
+    margin-left: 35px;
+}
+
+.restobtmob {
+    visibility: hidden;
 }
 
 .bak {
@@ -315,16 +405,22 @@ header button:hover {
 // section 4
 
 .mainaccgrid4 {
-    padding: 1em;
+    padding: 2em;
     display: grid;
     grid-template: 25em / 28% 28% 28%;
+    gap: 3em;
+}
+
+.mobgrid {
+    display: grid;
+    grid-template: 25em / 26em 26em 26em;
     gap: 3em;
 }
 
 .lih5 {
     color: rgb(226, 226, 226);
     font-size: 4em;
-    font-family: "Sedan", sans-serif;
+    font-family: "Gilda Display", serif;
     text-align: center;
     width: 80%;
 }
@@ -333,11 +429,17 @@ header button:hover {
     color: #A68B67;
 }
 
+.phabs {
+    position: relative;
+    bottom: 13%;
+    left: 10%;
+}
+
 .accp5 {
     color: grey;
     margin-left: 2em;
     width: 93%;
-    font-family: "Roboto", sans-serif;
+    font-family: "Barlow", sans-serif;
     font-size: 20px;
     height: 5em;
 }
@@ -349,6 +451,7 @@ header button:hover {
 .infoli2 {
     color: grey;
     font-size: 25px;
+    margin-left: 2em;
 }
 
 .numli2 {
@@ -357,6 +460,7 @@ header button:hover {
     flex-direction: column;
     align-self: flex-start;
     font-size: 20px;
+    margin-left: 50px;
 }
 
 .nuli2 {
@@ -375,7 +479,7 @@ header button:hover {
 .dej1 {
     color: rgb(226, 226, 226);
     font-size: 2em;
-    font-family: "Sedan", sans-serif;
+    font-family: "Gilda Display", serif;
     padding-top: 2em;
     height: 2em;
 }
@@ -391,12 +495,14 @@ header button:hover {
     color: grey;
     letter-spacing: 2px;
     font-size: 25px;
+    font-family: "Barlow", sans-serif;
 }
 
 .dej3 {
     color: grey;
     font-size: 25px;
     height: 40px;
+    font-family: "Barlow", sans-serif;
 }
 
 .bak i {
@@ -417,7 +523,7 @@ header button:hover {
 .sec5 h5 {
     color: rgb(226, 226, 226);
     font-size: 3em;
-    font-family: "Sedan", sans-serif;
+    font-family: "Gilda Display", serif;
 }
 
 .sec5grid {
@@ -447,7 +553,7 @@ header button:hover {
 .lisec51 {
     color: rgb(226, 226, 226);
     font-size: 2em;
-    font-family: "Sedan", sans-serif;
+    font-family: "Gilda Display", serif;
     height: 2em;
     font-weight: 100;
 }
@@ -455,98 +561,8 @@ header button:hover {
 .lisec52 {
     color: grey;
     font-size: 18px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Barlow", sans-serif;
 }
-
-// footer
-
-.accfooter {
-    display: flex;
-    padding: 5em;
-}
-
-.accfooter li {
-    list-style-type: none;
-}
-
-.accfooterap {
-width: 48em;
-height: 20em;
-}
-
-.accp4 {
-    color: rgb(226, 226, 226);
-    font-size: 3em;
-    font-family: "Sedan", sans-serif;
-    height: 2em;
-    padding-left: 38px;
-    font-weight: 100;
-}
-
-.contactacc {
-    padding-left: 3em;
-}
-
-.licont1 {
-    color: rgb(226, 226, 226);
-    font-size: 3em;
-    font-family: "Sedan", sans-serif;
-    height: 2em;
-    font-weight: 100;
-}
-
-.licont2 {
-        color: grey;
-        width: 93%;
-        font-family: "Roboto", sans-serif;
-        font-size: 20px;
-        height: 5em;
-}
-
-.licont3 {
-    color: rgb(226, 226, 226);
-    width: 93%;
-    font-family: "Roboto", sans-serif;
-    font-size: 25px;
-    height: 2em;
-}
-
-.mailacc a {
-    color: rgb(226, 226, 226);
-    font-size: 20px;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-}
-
-.mailacc {
-    height: 4em;
-}
-
-
-.acclast {
-    padding-top: 1em;
-    background-color: #1c1c1c;
-    padding-bottom: 1em;
-}
-
-.acclast {
-    text-align: center;
-}
-
-.acclasth6 {
-    color: rgb(226, 226, 226);
-    font-size: 17px;
-    font-family: "Roboto", sans-serif;
-    height: 2em;
-    padding-left: 38px;
-    font-weight: 100;
-}
-
-.acclast span {
-    color: grey;
-}
-
-
 
 
 
