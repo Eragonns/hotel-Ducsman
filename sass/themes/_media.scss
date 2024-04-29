@@ -74,13 +74,38 @@
     .star{
         display: flex;
         flex-flow: row nowrap;
+
     }
 
     .hotel{
-        display: block;
-        display: flex;
-        flex-flow: column nowrap;
+        display:none;
     }
+
+    .title1{
+        position: relative;
+        left: -50%;
+    }
+
+    #star{
+        position: relative;
+        right: +230%;
+    }
+
+    .P1{
+        width: 300px;
+        height: 250px;
+        overflow-y: scroll;
+        scrollbar-color: #A68B67 red;
+        scrollbar-width: thin;
+    }
+
+    .paragraphe1{
+        flex-direction: column;
+    }
+
+    
+
+
 
 }
 
