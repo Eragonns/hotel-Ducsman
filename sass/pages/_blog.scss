@@ -8,7 +8,8 @@ body{
 .paragraphe1{
     display: flex;
     flex-flow:row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 4%;
     color: rgb(152, 150, 150);
     font-family: "Barlow", sans-serif;
     font-weight: 100;
@@ -177,5 +178,9 @@ li i {
 li{
     color: rgb(109, 108, 108);
     list-style-type: none;
+}
+
+.button{
+    padding-bottom: 5%;
 }
 
